@@ -15,6 +15,7 @@ render_header('Основна', 'Преміум-портал сервера [UA]
             <div class="hero-actions">
                 <a class="btn btn-primary btn-lg" href="steam://connect/91.211.118.100:27119">Підключитись: 91.211.118.100:27119</a>
                 <a class="btn btn-outline-light btn-lg" href="skinchanger.php">Відкрити SkinChanger</a>
+                <a class="btn btn-outline-light btn-lg" href="skinchanger.php?login">Steam Login</a>
             </div>
         </div>
         <div class="hero-stats">

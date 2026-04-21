@@ -35,6 +35,7 @@ owner_render_header('Login');
 <div class="portal-card mx-auto" style="max-width:480px;">
     <h2 class="section-title">Вхід до owner panel</h2>
     <?php if ($error !== ''): ?><div class="alert alert-danger"><?php echo e($error); ?></div><?php endif; ?>
+    <p class="text-secondary">Шлях: /owner/login.php. Після першого входу обов'язково змініть логін/пароль в owner/admin_config.php.</p>
     <form method="post" autocomplete="off">
         <input type="hidden" name="csrf_token" value="<?php echo e(csrf_token()); ?>">
         <div class="mb-3">
